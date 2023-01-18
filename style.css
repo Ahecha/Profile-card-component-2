@@ -1,0 +1,90 @@
+* {
+    box-sizing: content-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+
+    background-color: hsl(185, 75%, 39%);
+    
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+}
+
+.section-one {
+    width: 100%;
+    border-style: none !important;
+    border-radius: 5% 5% 0 0 !important;
+    
+    
+}
+.bg-img {
+    border-style: none !important;
+    border-radius: 5% 5% 0 0 !important;
+
+}
+
+img {
+    width: 100%;
+}
+
+.section-two {
+    width: 100%;
+    background-color: white;
+    border-style: none !important;
+    border-radius: 0 0 5% 5% !important;
+    padding-bottom: 6%;
+    
+
+}
+
+.profile-img {
+    width: 30%;
+    position: relative;
+    transform: translate(0%, -50%);
+}
+
+.profile-details {
+    margin-top: -12%;
+    padding-bottom: 7%;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.age, .city {
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    max-width: 50%;
+}
+
+.stats-container {
+    padding-top: 2%;
+}
+
+.stats-number {
+    font-weight: 700;
+}
+
+.stats {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.8rem;
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 20%;
+    }
+}
