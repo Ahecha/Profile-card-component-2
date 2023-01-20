@@ -1,0 +1,45 @@
+ 
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.menu-container {
+    padding: 1% 0;
+    width: 95%;
+}
+
+.main-logo {
+    width: 60%;
+    margin-right: 1%
+}
+
+.text-container {
+    width: 70%;
+    
+}
+
+.text-menu {
+    font-size: 0.8rem;
+    
+    
+}
+
+.text-menu:hover {
+    background-color: blue;
+    color:white;
+    padding: 1.5% 0 1.5% 1.5%;
+    
+}
+
+.img-container {
+    width: 20%;
+}
+
+.logos {
+    width: 10%;
+    height: 50%;
+}
